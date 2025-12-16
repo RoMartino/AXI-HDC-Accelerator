@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_HDC_HW_Accelerator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="hdc_pkg" />
+            <top_module name="tb_HDC_HW_Accelerator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="14,587,398.583 ns"></ZoomStartTime>
+      <ZoomEndTime time="14,587,526.284 ns"></ZoomEndTime>
+      <Cursor1Time time="14,587,505.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="226"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="204" />
+   <wave_markers>
+      <marker label="" time="2925000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/rst_ni">
+      <obj_property name="ElementShortName">rst_ni</obj_property>
+      <obj_property name="ObjectShortName">rst_ni</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1052" type="divider">
+      <obj_property name="label">AXI BUS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#A52A2A</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_ACLK">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_ARESETN">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_AWADDR">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_AWPROT">
+      <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_AWVALID">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_AWREADY">
+      <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_WDATA">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_WSTRB">
+      <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_WVALID">
+      <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_WREADY">
+      <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_BRESP">
+      <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_BVALID">
+      <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_BREADY">
+      <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_ARADDR">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_ARPROT">
+      <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_ARVALID">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_ARREADY">
+      <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_RDATA">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_RRESP">
+      <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_RVALID">
+      <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/S_AXI_RREADY">
+      <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/state_HDC">
+      <obj_property name="ElementShortName">state_HDC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_HDC[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/nextstate_HDC">
+      <obj_property name="ElementShortName">nextstate_HDC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nextstate_HDC[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/busy_hdc">
+      <obj_property name="ElementShortName">busy_hdc</obj_property>
+      <obj_property name="ObjectShortName">busy_hdc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/busy_hdc_internal">
+      <obj_property name="ElementShortName">busy_hdc_internal</obj_property>
+      <obj_property name="ObjectShortName">busy_hdc_internal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/busy_hdc_internal_lat">
+      <obj_property name="ElementShortName">busy_hdc_internal_lat</obj_property>
+      <obj_property name="ObjectShortName">busy_hdc_internal_lat</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/recover_state">
+      <obj_property name="ElementShortName">recover_state</obj_property>
+      <obj_property name="ObjectShortName">recover_state</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/recover_state_wires">
+      <obj_property name="ElementShortName">recover_state_wires</obj_property>
+      <obj_property name="ObjectShortName">recover_state_wires</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/HVSIZE_READ">
+      <obj_property name="ElementShortName">HVSIZE_READ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HVSIZE_READ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/HVSIZE_READ_lat">
+      <obj_property name="ElementShortName">HVSIZE_READ_lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HVSIZE_READ_lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/HVSIZE_WRITE">
+      <obj_property name="ElementShortName">HVSIZE_WRITE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HVSIZE_WRITE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/SIMD_RD_BYTES">
+      <obj_property name="ElementShortName">SIMD_RD_BYTES</obj_property>
+      <obj_property name="ObjectShortName">SIMD_RD_BYTES</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HDC_INSTR_replicate_lat">
+      <obj_property name="ElementShortName">AXI_HDC_INSTR_replicate_lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HDC_INSTR_replicate_lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RS1_lat">
+      <obj_property name="ElementShortName">AXI_RS1_lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RS1_lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RS2_lat">
+      <obj_property name="ElementShortName">AXI_RS2_lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RS2_lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RD_lat">
+      <obj_property name="ElementShortName">AXI_RD_lat[19:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RD_lat[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RD">
+      <obj_property name="ElementShortName">AXI_RD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_data_write_wire_int">
+      <obj_property name="ElementShortName">hdc_sc_data_write_wire_int[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_data_write_wire_int[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_data_write_int">
+      <obj_property name="ElementShortName">hdc_sc_data_write_int[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_data_write_int[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_data_gnt_i_lat">
+      <obj_property name="ElementShortName">hdc_data_gnt_i_lat</obj_property>
+      <obj_property name="ObjectShortName">hdc_data_gnt_i_lat</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/overflow_rs1_sc">
+      <obj_property name="ElementShortName">overflow_rs1_sc[20:0]</obj_property>
+      <obj_property name="ObjectShortName">overflow_rs1_sc[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/overflow_rs2_sc">
+      <obj_property name="ElementShortName">overflow_rs2_sc[20:0]</obj_property>
+      <obj_property name="ObjectShortName">overflow_rs2_sc[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/overflow_rd_sc">
+      <obj_property name="ElementShortName">overflow_rd_sc[20:0]</obj_property>
+      <obj_property name="ObjectShortName">overflow_rd_sc[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RS1">
+      <obj_property name="ElementShortName">AXI_RS1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RS1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/ID_rs1_to_sc">
+      <obj_property name="ElementShortName">ID_rs1_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_rs1_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/rs1_to_sc">
+      <obj_property name="ElementShortName">rs1_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_rs1_to_sc">
+      <obj_property name="ElementShortName">hdc_rs1_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_rs1_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/rs2_to_sc">
+      <obj_property name="ElementShortName">rs2_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/ID_rs2_to_sc">
+      <obj_property name="ElementShortName">ID_rs2_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_rs2_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/ID_rd_to_sc">
+      <obj_property name="ElementShortName">ID_rd_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_rd_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/rd_to_sc">
+      <obj_property name="ElementShortName">rd_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_rd_to_sc">
+      <obj_property name="ElementShortName">hdc_rd_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_rd_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_rs2_to_sc">
+      <obj_property name="ElementShortName">hdc_rs2_to_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_rs2_to_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_except_data">
+      <obj_property name="ElementShortName">hdc_except_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_except_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_except_data_wire">
+      <obj_property name="ElementShortName">hdc_except_data_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_except_data_wire[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/halt_hdc">
+      <obj_property name="ElementShortName">halt_hdc</obj_property>
+      <obj_property name="ObjectShortName">halt_hdc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/halt_hdc_lat">
+      <obj_property name="ElementShortName">halt_hdc_lat</obj_property>
+      <obj_property name="ObjectShortName">halt_hdc_lat</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/wb_ready">
+      <obj_property name="ElementShortName">wb_ready</obj_property>
+      <obj_property name="ObjectShortName">wb_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1051" type="divider">
+      <obj_property name="label">BUNDLING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FAAFBE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bundle_en">
+      <obj_property name="ElementShortName">bundle_en</obj_property>
+      <obj_property name="ObjectShortName">bundle_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bundle_stage_1_en">
+      <obj_property name="ElementShortName">bundle_stage_1_en</obj_property>
+      <obj_property name="ObjectShortName">bundle_stage_1_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bundle_stage_2_en">
+      <obj_property name="ElementShortName">bundle_stage_2_en</obj_property>
+      <obj_property name="ObjectShortName">bundle_stage_2_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bundle_offset">
+      <obj_property name="ElementShortName">bundle_offset[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bundle_offset[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bundle_processed_bytes">
+      <obj_property name="ElementShortName">bundle_processed_bytes</obj_property>
+      <obj_property name="ObjectShortName">bundle_processed_bytes</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_bundle_operands">
+      <obj_property name="ElementShortName">hdcu_in_bundle_operands[1:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_in_bundle_operands[1:0][63:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_out_bundle_results">
+      <obj_property name="ElementShortName">hdcu_out_bundle_results[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_out_bundle_results[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1050" type="divider">
+      <obj_property name="label">BINDING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FF00FF</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bind_en">
+      <obj_property name="ElementShortName">bind_en</obj_property>
+      <obj_property name="ObjectShortName">bind_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bind_stage_1_en">
+      <obj_property name="ElementShortName">bind_stage_1_en</obj_property>
+      <obj_property name="ObjectShortName">bind_stage_1_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/bind_stage_2_en">
+      <obj_property name="ElementShortName">bind_stage_2_en</obj_property>
+      <obj_property name="ObjectShortName">bind_stage_2_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_bind_operands">
+      <obj_property name="ElementShortName">hdcu_in_bind_operands[1:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_in_bind_operands[1:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_out_bind_results">
+      <obj_property name="ElementShortName">hdcu_out_bind_results[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_out_bind_results[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1048" type="divider">
+      <obj_property name="label">CLIPPING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#800080</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/clip_en">
+      <obj_property name="ElementShortName">clip_en</obj_property>
+      <obj_property name="ObjectShortName">clip_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/clip_stage_1_en">
+      <obj_property name="ElementShortName">clip_stage_1_en</obj_property>
+      <obj_property name="ObjectShortName">clip_stage_1_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/clip_stage_2_en">
+      <obj_property name="ElementShortName">clip_stage_2_en</obj_property>
+      <obj_property name="ObjectShortName">clip_stage_2_en</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/clip_processed_bytes">
+      <obj_property name="ElementShortName">clip_processed_bytes</obj_property>
+      <obj_property name="ObjectShortName">clip_processed_bytes</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_clip_operand_0">
+      <obj_property name="ElementShortName">hdcu_in_clip_operand_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_in_clip_operand_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_clip_operand_1">
+      <obj_property name="ElementShortName">hdcu_in_clip_operand_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_in_clip_operand_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_out_clip_results">
+      <obj_property name="ElementShortName">hdcu_out_clip_results[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_out_clip_results[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1047" type="divider">
+      <obj_property name="label">PERMUTATION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FF0000</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/perm_en">
+      <obj_property name="ElementShortName">perm_en</obj_property>
+      <obj_property name="ObjectShortName">perm_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/perm_stage_1_en">
+      <obj_property name="ElementShortName">perm_stage_1_en</obj_property>
+      <obj_property name="ObjectShortName">perm_stage_1_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/perm_stage_2_en">
+      <obj_property name="ElementShortName">perm_stage_2_en</obj_property>
+      <obj_property name="ObjectShortName">perm_stage_2_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/first_perm_source_addr">
+      <obj_property name="ElementShortName">first_perm_source_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">first_perm_source_addr[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/first_perm_dest_addr">
+      <obj_property name="ElementShortName">first_perm_dest_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">first_perm_dest_addr[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/new_perm_offset">
+      <obj_property name="ElementShortName">new_perm_offset</obj_property>
+      <obj_property name="ObjectShortName">new_perm_offset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/HVSIZE_READ">
+      <obj_property name="ElementShortName">HVSIZE_READ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HVSIZE_READ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/HVSIZE_READ_lat">
+      <obj_property name="ElementShortName">HVSIZE_READ_lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HVSIZE_READ_lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_read_addr">
+      <obj_property name="ElementShortName">hdc_sc_read_addr[1:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_read_addr[1:0][19:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_write_addr">
+      <obj_property name="ElementShortName">hdc_sc_write_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_write_addr[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RD_lat">
+      <obj_property name="ElementShortName">AXI_RD_lat[19:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RD_lat[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_perm_operand_0">
+      <obj_property name="ElementShortName">hdcu_in_perm_operand_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_in_perm_operand_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_data_write_wire_int">
+      <obj_property name="ElementShortName">hdc_sc_data_write_wire_int[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_data_write_wire_int[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/buffer_reg">
+      <obj_property name="ElementShortName">buffer_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_write_addr">
+      <obj_property name="ElementShortName">hdc_sc_write_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_write_addr[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/HVSIZE_WRITE">
+      <obj_property name="ElementShortName">HVSIZE_WRITE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HVSIZE_WRITE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/wb_ready">
+      <obj_property name="ElementShortName">wb_ready</obj_property>
+      <obj_property name="ObjectShortName">wb_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_out_perm_results">
+      <obj_property name="ElementShortName">hdcu_out_perm_results[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_out_perm_results[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HDC_INSTR">
+      <obj_property name="ElementShortName">AXI_HDC_INSTR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HDC_INSTR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1049" type="divider">
+      <obj_property name="label">SIMILARITY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FF0080</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/sim_en">
+      <obj_property name="ElementShortName">sim_en</obj_property>
+      <obj_property name="ObjectShortName">sim_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/sim_stage_1_en">
+      <obj_property name="ElementShortName">sim_stage_1_en</obj_property>
+      <obj_property name="ObjectShortName">sim_stage_1_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/sim_stage_2_en">
+      <obj_property name="ElementShortName">sim_stage_2_en</obj_property>
+      <obj_property name="ObjectShortName">sim_stage_2_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/xor_out">
+      <obj_property name="ElementShortName">xor_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">xor_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/partial_sim_measure">
+      <obj_property name="ElementShortName">partial_sim_measure[63:0]</obj_property>
+      <obj_property name="ObjectShortName">partial_sim_measure[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/sim_measure">
+      <obj_property name="ElementShortName">sim_measure[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_measure[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/sim_measure_wire">
+      <obj_property name="ElementShortName">sim_measure_wire[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_measure_wire[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_sim_operands">
+      <obj_property name="ElementShortName">hdcu_in_sim_operands[1:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_in_sim_operands[1:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_sim_operands[1]">
+      <obj_property name="ElementShortName">[1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_in_sim_operands[0]">
+      <obj_property name="ElementShortName">[0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_out_sim_results">
+      <obj_property name="ElementShortName">hdcu_out_sim_results[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_out_sim_results[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/class_index">
+      <obj_property name="ElementShortName">class_index</obj_property>
+      <obj_property name="ObjectShortName">class_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1046" type="divider">
+      <obj_property name="label">ASSOCIATIVE SEARCH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#800000</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/as_en">
+      <obj_property name="ElementShortName">as_en</obj_property>
+      <obj_property name="ObjectShortName">as_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/as_stage_1_en">
+      <obj_property name="ElementShortName">as_stage_1_en</obj_property>
+      <obj_property name="ObjectShortName">as_stage_1_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/as_stage_2_en">
+      <obj_property name="ElementShortName">as_stage_2_en</obj_property>
+      <obj_property name="ObjectShortName">as_stage_2_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/as_stage_3_en">
+      <obj_property name="ElementShortName">as_stage_3_en</obj_property>
+      <obj_property name="ObjectShortName">as_stage_3_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/wb_ready">
+      <obj_property name="ElementShortName">wb_ready</obj_property>
+      <obj_property name="ObjectShortName">wb_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdcu_out_sim_results">
+      <obj_property name="ElementShortName">hdcu_out_sim_results[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hdcu_out_sim_results[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/class_index">
+      <obj_property name="ElementShortName">class_index</obj_property>
+      <obj_property name="ObjectShortName">class_index</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/temp_best_class_index">
+      <obj_property name="ElementShortName">temp_best_class_index</obj_property>
+      <obj_property name="ObjectShortName">temp_best_class_index</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AMSIZE_READ_lat">
+      <obj_property name="ElementShortName">AMSIZE_READ_lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AMSIZE_READ_lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/HVSIZE_READ_lat">
+      <obj_property name="ElementShortName">HVSIZE_READ_lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HVSIZE_READ_lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/head_ptr_encoded_hv">
+      <obj_property name="ElementShortName">head_ptr_encoded_hv[31:0]</obj_property>
+      <obj_property name="ObjectShortName">head_ptr_encoded_hv[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1072" type="divider">
+      <obj_property name="label">ALTRO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1045" type="divider">
+      <obj_property name="label">AXI REG FILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HVSIZE">
+      <obj_property name="ElementShortName">AXI_HVSIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HVSIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HVTYPE">
+      <obj_property name="ElementShortName">AXI_HVTYPE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HVTYPE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RS1">
+      <obj_property name="ElementShortName">AXI_RS1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RS1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RS2">
+      <obj_property name="ElementShortName">AXI_RS2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RS2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RD">
+      <obj_property name="ElementShortName">AXI_RD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HDC_INSTR">
+      <obj_property name="ElementShortName">AXI_HDC_INSTR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HDC_INSTR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HDC_INSTR_replicate">
+      <obj_property name="ElementShortName">AXI_HDC_INSTR_replicate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HDC_INSTR_replicate[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HVCLASS">
+      <obj_property name="ElementShortName">AXI_HVCLASS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HVCLASS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HDC_REQ">
+      <obj_property name="ElementShortName">AXI_HDC_REQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HDC_REQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_RSIZE">
+      <obj_property name="ElementShortName">AXI_RSIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RSIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_WSIZE">
+      <obj_property name="ElementShortName">AXI_WSIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_WSIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/slv_reg_rden">
+      <obj_property name="ElementShortName">slv_reg_rden</obj_property>
+      <obj_property name="ObjectShortName">slv_reg_rden</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/slv_reg_wren">
+      <obj_property name="ElementShortName">slv_reg_wren</obj_property>
+      <obj_property name="ObjectShortName">slv_reg_wren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/reg_data_out">
+      <obj_property name="ElementShortName">reg_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/byte_index">
+      <obj_property name="ElementShortName">byte_index</obj_property>
+      <obj_property name="ObjectShortName">byte_index</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/aw_en">
+      <obj_property name="ElementShortName">aw_en</obj_property>
+      <obj_property name="ObjectShortName">aw_en</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/SPM_NUM">
+      <obj_property name="ElementShortName">SPM_NUM</obj_property>
+      <obj_property name="ObjectShortName">SPM_NUM</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/ADDR_WIDTH">
+      <obj_property name="ElementShortName">ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/SPM_STRT_ADDR">
+      <obj_property name="ElementShortName">SPM_STRT_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SPM_STRT_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/SIMD">
+      <obj_property name="ElementShortName">SIMD</obj_property>
+      <obj_property name="ObjectShortName">SIMD</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/C_S_AXI_DATA_WIDTH">
+      <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/C_S_AXI_ADDR_WIDTH">
+      <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1054" type="divider">
+      <obj_property name="label">SPM INTERFACE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FFA500</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_data_read">
+      <obj_property name="ElementShortName">hdc_sc_data_read[1:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_data_read[1:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sci_wr_gnt">
+      <obj_property name="ElementShortName">hdc_sci_wr_gnt</obj_property>
+      <obj_property name="ObjectShortName">hdc_sci_wr_gnt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_data_gnt_i">
+      <obj_property name="ElementShortName">hdc_data_gnt_i</obj_property>
+      <obj_property name="ObjectShortName">hdc_data_gnt_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_we_word">
+      <obj_property name="ElementShortName">hdc_we_word[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_we_word[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_data_write_wire">
+      <obj_property name="ElementShortName">hdc_sc_data_write_wire[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_data_write_wire[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_write_addr">
+      <obj_property name="ElementShortName">hdc_sc_write_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_write_addr[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sc_read_addr">
+      <obj_property name="ElementShortName">hdc_sc_read_addr[1:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sc_read_addr[1:0][19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_to_sc">
+      <obj_property name="ElementShortName">hdc_to_sc[3:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_to_sc[3:0][1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sci_we">
+      <obj_property name="ElementShortName">hdc_sci_we[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sci_we[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/hdc_sci_req">
+      <obj_property name="ElementShortName">hdc_sci_req[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hdc_sci_req[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_start">
+      <obj_property name="ElementShortName">DMA_start</obj_property>
+      <obj_property name="ObjectShortName">DMA_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1053" type="divider">
+      <obj_property name="label">DMA WRITE INTERFACE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#D2691E</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_addr_w">
+      <obj_property name="ElementShortName">DMA_addr_w[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_addr_w[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_SPM_sel_w">
+      <obj_property name="ElementShortName">DMA_SPM_sel_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_SPM_sel_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_size_w">
+      <obj_property name="ElementShortName">DMA_size_w[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_size_w[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_w">
+      <obj_property name="ElementShortName">DMA_w</obj_property>
+      <obj_property name="ObjectShortName">DMA_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1053" type="divider">
+      <obj_property name="label">DMA READ INTERFACE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#D2691E</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_start">
+      <obj_property name="ElementShortName">DMA_start</obj_property>
+      <obj_property name="ObjectShortName">DMA_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_r">
+      <obj_property name="ElementShortName">DMA_r</obj_property>
+      <obj_property name="ObjectShortName">DMA_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_reading">
+      <obj_property name="ElementShortName">DMA_reading</obj_property>
+      <obj_property name="ObjectShortName">DMA_reading</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_reading_int">
+      <obj_property name="ElementShortName">DMA_reading_int</obj_property>
+      <obj_property name="ObjectShortName">DMA_reading_int</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_addr_r">
+      <obj_property name="ElementShortName">DMA_addr_r[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_addr_r[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_addr_r_int">
+      <obj_property name="ElementShortName">DMA_addr_r_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_addr_r_int[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_size_r">
+      <obj_property name="ElementShortName">DMA_size_r[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_size_r[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_addr_r_int">
+      <obj_property name="ElementShortName">DMA_addr_r_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_addr_r_int[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_size_r_int">
+      <obj_property name="ElementShortName">DMA_size_r_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_size_r_int[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/DMA_SPM_sel_r">
+      <obj_property name="ElementShortName">DMA_SPM_sel_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_SPM_sel_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_SPM_sel_r_int">
+      <obj_property name="ElementShortName">DMA_SPM_sel_r_int[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_SPM_sel_r_int[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_data_valid">
+      <obj_property name="ElementShortName">DMA_data_valid</obj_property>
+      <obj_property name="ObjectShortName">DMA_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_read_prev_int">
+      <obj_property name="ElementShortName">DMA_read_prev_int[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_read_prev_int[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_read_prev">
+      <obj_property name="ElementShortName">DMA_read_prev[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_read_prev[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_r_counter">
+      <obj_property name="ElementShortName">DMA_r_counter</obj_property>
+      <obj_property name="ObjectShortName">DMA_r_counter</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/DMA_size_r_int">
+      <obj_property name="ElementShortName">DMA_size_r_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_size_r_int[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HDC_INSTR">
+      <obj_property name="ElementShortName">AXI_HDC_INSTR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HDC_INSTR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_HDC_INSTR_replicate">
+      <obj_property name="ElementShortName">AXI_HDC_INSTR_replicate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_HDC_INSTR_replicate[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/busy_hdc">
+      <obj_property name="ElementShortName">busy_hdc</obj_property>
+      <obj_property name="ObjectShortName">busy_hdc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/busy_hdc_lat">
+      <obj_property name="ElementShortName">busy_hdc_lat</obj_property>
+      <obj_property name="ObjectShortName">busy_hdc_lat</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/HDC_HW_Accelerator_v1_0_S00_AXI_inst/AXI_INTERRUPT">
+      <obj_property name="ElementShortName">AXI_INTERRUPT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_INTERRUPT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider460" type="divider">
+      <obj_property name="label">AXI STREAM WRITE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#0000FF</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/s_axis_tdata">
+      <obj_property name="ElementShortName">s_axis_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/s_axis_tvalid">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/s_axis_tready">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/s_axis_tlast">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider461" type="divider">
+      <obj_property name="label">AXI STREAM READ</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FFFF</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_HDC_HW_Accelerator/m_axis_tdata">
+      <obj_property name="ElementShortName">m_axis_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/m_axis_tvalid">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/m_axis_tready">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/m_axis_tlast">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_HDC_HW_Accelerator/dut/SPM_Interfance_inst/m_axis_tlast_int">
+      <obj_property name="ElementShortName">m_axis_tlast_int</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast_int</obj_property>
+   </wvobject>
+</wave_config>
