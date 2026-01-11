@@ -143,6 +143,17 @@ Defines VHDL constants.
 
 ## Architecture
 
+![System Architecture](docs/img/architecture_diagram.png)
+
+The system architecture follows a high-performance coprocessor model designed to offload HDC operations from the Host Processor.
+
+**Data Flow Description**:
+1.  **Host Processor (PS)**: Managing the application layer, it configures the hardware via **AXI-Lite** interfaces (register read/write).
+2.  **DDR Memory**: Acts as the main storage for large Hypervectors (e.g., 1024-bit to 10k-bit vectors).
+3.  **DMA Controller**: Offloads data transfer tasks, moving vectors between DDR and the FPGA fabric via high-speed **AXI-Stream**.
+4.  **FIFOs**: Provide elastic buffering between the DMA high-speed stream and the compute core, effectively handling backpressure and potential clock domain crossings between the System Clock (`CLK_0`) and the Accelerator Clock (`HDCU_CLK`).
+5.  **HDC Unit (PL)**: The core SIMD engine that consumes the input stream, performs operations (Bind, Bundle, etc.) using internal Scratchpad Memory, and streams results back.
+
 The system follows a coprocessor model:
 
 1.  **Software (CPU)**: Handles dataset parsing, encoding (optional), and orchestration. Configures the HDC Accelerator via AXI-Lite (Memory Mapped).
