@@ -188,6 +188,10 @@ Located in `lib/example/`, these test individual operators:
   - Often due to memory map mismatches. Ensure the Reserved Memory in Device Tree starts at `0x30000000` and `0x34000000` as defined in `config.hpp`.
   - Check if `HV_SIZE` in software matches the hardware generation.
 
+## License
+
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
+
 ## Related Publication
 
 This repository accompanies the following paper:
@@ -207,6 +211,4 @@ Martino, R.; Pisani, M.; Angioli, M.; Barbirotta, M.; Mastrandrea, A.; Rosato, A
   doi            = {10.3390/electronics15020489}
 }
 
-## License
 
-This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
