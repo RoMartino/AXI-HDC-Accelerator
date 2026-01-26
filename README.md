@@ -188,6 +188,25 @@ Located in `lib/example/`, these test individual operators:
   - Often due to memory map mismatches. Ensure the Reserved Memory in Device Tree starts at `0x30000000` and `0x34000000` as defined in `config.hpp`.
   - Check if `HV_SIZE` in software matches the hardware generation.
 
+## Related Publication
+
+This repository accompanies the following paper:
+
+Martino, R.; Pisani, M.; Angioli, M.; Barbirotta, M.; Mastrandrea, A.; Rosato, A.; Olivieri, M. **A General-Purpose AXI Plug-and-Play Hyperdimensional Computing Accelerator.** *Electronics* **2026**, *15*, 489. https://doi.org/10.3390/electronics15020489
+
+### BibTeX
+
+```bibtex
+@article{Martino2026AXIPlugAndPlayHDC,
+  author         = {Martino, Rocco and Pisani, Marco and Angioli, Marco and Barbirotta, Marcello and Mastrandrea, Antonio and Rosato, Antonello and Olivieri, Mauro},
+  title          = {A General-Purpose AXI Plug-and-Play Hyperdimensional Computing Accelerator},
+  journal        = {Electronics},
+  year           = {2026},
+  volume         = {15},
+  article-number = {489},
+  doi            = {10.3390/electronics15020489}
+}
+
 ## License
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
